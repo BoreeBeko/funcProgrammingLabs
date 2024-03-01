@@ -33,3 +33,19 @@ W = 50
 n = len(values)
 result = knapsack(W, weights, values, n)
 print("Maximum value that can be obtained:", result)
+
+
+def sort_by_str(massive, strategy):
+    pass
+
+def observable():
+    def subs():
+        pass
+
+
+def observer1():
+    pass
+
+
+def obs2():
+    pass
