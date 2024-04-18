@@ -13,9 +13,12 @@ def prime_generator():
             yield num
         num += 1
 
-# Example usage:
-n = 100
+
+n = 5
 print("Prime numbers up to", n, "are:")
 prime_gen = prime_generator()
 for _ in range(n):
-    print(next(prime_gen), end=" ")
+    res = next(prime_gen)
+    print(res, is_prime(res), end=" ")
+
+
